@@ -7,8 +7,8 @@
       "passwordHash": "ffb351c17553bcc347a20739bed8db22b7db3f3620334c14335742f751acfeca",
       "role": "admin",
       "createdAt": "2025-01-01T10:00:00Z",
-      "authToken": "06772927-eade-44b2-bc76-bc9bd1335ec6",
-      "authTokenExpiresAt": 1766474977947,
+      "authToken": "e4306339-90de-4d3a-9e40-a6db65fea999",
+      "authTokenExpiresAt": 1766486697033,
       "profile": {
         "displayName": "Benevolant Tyrant",
         "bio": "I like turtles",
@@ -1324,8 +1324,20 @@
       "authorId": 3,
       "authorUsername": "quantumflux",
       "createdAt": "2025-12-17T21:39:06.759Z",
-      "content": ">>>adminmasterkarry[post:81] Who told you that??? I am Tyrah Banks. THE Tyra Banks. I am a superstar. I ain't rusty.",
-      "id": 94
+      "content": "<i>deleted</i>",
+      "id": 94,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "admin",
+            "deleterId": 1,
+            "deletedContent": ">>>adminmasterkarry[post:81] Who told you that??? I am Tyrah Banks. THE Tyra Banks. I am a superstar. I ain't rusty.",
+            "reason": "Behave yourself quantum. Last 10th warning.",
+            "deletedOn": "2025-12-23T08:45:37.306Z"
+          }
+        ]
+      }
     },
     {
       "threadId": 28,
@@ -1396,8 +1408,20 @@
       "authorId": 9,
       "authorUsername": "drakenwan",
       "createdAt": "2025-12-23T03:02:00.618Z",
-      "content": "for real for real",
-      "id": 103
+      "content": "<i>deleted</i>",
+      "id": 103,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "admin",
+            "deleterId": 1,
+            "deletedContent": "for real for real",
+            "reason": "redundant reply. Does not add anything to the discussion.",
+            "deletedOn": "2025-12-23T08:46:16.171Z"
+          }
+        ]
+      }
     },
     {
       "threadId": 1,
@@ -1534,9 +1558,21 @@
             "deleterId": 10,
             "deletedContent": "Omg I am a moderator now!",
             "reason": null,
-            "deletedOn": "2025-12-23T05:16:15.124Z"
+            "deletedOn": "2025-12-23T07:27:27.515Z"
           }
         ]
+      }
+    },
+    {
+      "threadId": 21,
+      "authorId": 1,
+      "authorUsername": "adminmasterkarry",
+      "createdAt": "2025-12-23T07:33:27.479Z",
+      "content": "oho",
+      "id": 113,
+      "deletionLog": {
+        "deleted": false,
+        "log": []
       }
     }
   ]
