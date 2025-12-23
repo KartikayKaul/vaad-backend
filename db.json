@@ -7,8 +7,8 @@
       "passwordHash": "ffb351c17553bcc347a20739bed8db22b7db3f3620334c14335742f751acfeca",
       "role": "admin",
       "createdAt": "2025-01-01T10:00:00Z",
-      "authToken": "b93d223e-b70e-41b7-af15-6ca81a941707",
-      "authTokenExpiresAt": 1766759628843,
+      "authToken": "06772927-eade-44b2-bc76-bc9bd1335ec6",
+      "authTokenExpiresAt": 1766474977947,
       "profile": {
         "displayName": "Benevolant Tyrant",
         "bio": "I like turtles",
@@ -223,6 +223,30 @@
         }
       },
       "id": 9
+    },
+    {
+      "username": "moderatorkarry1",
+      "email": "modkarry@gmail.com",
+      "passwordHash": "ffb351c17553bcc347a20739bed8db22b7db3f3620334c14335742f751acfeca",
+      "role": "moderator",
+      "createdAt": "2025-12-23T03:55:03.013Z",
+      "lastActiveAt": 1766462103013,
+      "authToken": null,
+      "authTokenExpiresAt": null,
+      "profile": {
+        "displayName": "",
+        "bio": "",
+        "location": "",
+        "website": "",
+        "interests": [],
+        "privacy": {
+          "publicProfile": true,
+          "showEmail": false,
+          "showLocation": true,
+          "showInterests": true
+        }
+      },
+      "id": 10
     }
   ],
   "forum": [
@@ -734,15 +758,31 @@
       "authorUsername": "guestl1765666498129",
       "createdAt": "2025-12-13T23:07:59.053Z",
       "content": "I am looking for beginner friendly guides on numpy can anyone please provide any links?",
-      "id": 26
+      "id": 26,
+      "deletionLog": {
+        "deleted": false,
+        "log": []
+      }
     },
     {
       "threadId": 2,
       "authorId": -1,
       "authorUsername": "guestl1765666498129",
       "createdAt": "2025-12-13T23:09:22.398Z",
-      "content": "Async has proven very useful. The language constructs in JS to accomodate for asynchronous programming especially async and await keywords are so intuitive and programmer friendly.",
-      "id": 27
+      "content": "<i>deleted</i>",
+      "id": 27,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "admin",
+            "deleterId": 1,
+            "deletedContent": "Async has proven very useful. The language constructs in JS to accomodate for asynchronous programming especially async and await keywords are so intuitive and programmer friendly.",
+            "reason": "guest user hatred. :) jejeje",
+            "deletedOn": "2025-12-23T03:53:31.123Z"
+          }
+        ]
+      }
     },
     {
       "threadId": 22,
@@ -821,7 +861,11 @@
       "authorUsername": "quantumflux",
       "createdAt": "2025-12-15T20:28:27.572Z",
       "content": "\"https://www.reddit.com/r/cpp_questions/comments/106gpj4/how_to_best_learn_modern_c/\" this link will help you out",
-      "id": 37
+      "id": 37,
+      "deletionLog": {
+        "deleted": false,
+        "log": []
+      }
     },
     {
       "threadId": 3,
@@ -1181,7 +1225,11 @@
       "authorUsername": "adminmasterkarry",
       "createdAt": "2025-12-17T15:28:30.719Z",
       "content": "[[https://www.reddit.com/r/cppquestions/comments/106gpj4/howtobestlearnmodernc/|Reddit link for help]]",
-      "id": 82
+      "id": 82,
+      "deletionLog": {
+        "deleted": false,
+        "log": []
+      }
     },
     {
       "threadId": 1,
@@ -1342,6 +1390,154 @@
       "createdAt": "2025-12-18T18:55:01.173Z",
       "content": "AYUSH approved vijaya/cannabis can be sold with high CBD content. THC <0.3%. This helps in pain relief, improving symptoms of ADHD, etc. I was thinking of creating a webapp as well as a mobileapp to allow users to upload prescription and get medicine. These would also involve non-medical daily life consumption items as well that Ministry of Ayush approved. I have gone through the legal procedures but I was looking for some group of technical professionals specifically in field of Chemical Engineering, Software Engineering and Machine Learning, and guidance on some ideas regarding capital generation/funding.",
       "id": 102
+    },
+    {
+      "threadId": 28,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:02:00.618Z",
+      "content": "for real for real",
+      "id": 103
+    },
+    {
+      "threadId": 1,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:14:10.862Z",
+      "content": "<i>deleted</i>",
+      "id": 104,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "self",
+            "deleterId": 9,
+            "deletedContent": "Can we delete this post?",
+            "reason": null,
+            "deletedOn": "2025-12-23T03:14:13.344Z"
+          }
+        ]
+      }
+    },
+    {
+      "threadId": 2,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:20:56.823Z",
+      "content": "hello",
+      "id": 105
+    },
+    {
+      "threadId": 1,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:21:18.234Z",
+      "content": "<i>deleted</i>",
+      "id": 106,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "self",
+            "deleterId": 9,
+            "deletedContent": "deleted",
+            "reason": null,
+            "deletedOn": "2025-12-23T03:21:23.851Z"
+          }
+        ]
+      }
+    },
+    {
+      "threadId": 22,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:25:04.099Z",
+      "content": "<i>deleted</i>",
+      "id": 107,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "admin",
+            "deleterId": 1,
+            "deletedContent": ">>>adminmasterkarry[post:82]\noh my god..",
+            "reason": "omg",
+            "deletedOn": "2025-12-23T05:42:14.576Z"
+          }
+        ]
+      }
+    },
+    {
+      "threadId": 22,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:25:14.205Z",
+      "content": "okay",
+      "id": 108,
+      "deletionLog": {
+        "deleted": false,
+        "log": []
+      }
+    },
+    {
+      "threadId": 22,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:31:59.605Z",
+      "content": ">>>drakenwan[post:107]\n>>>adminmasterkarry[post:82]\nOkay what is happening??",
+      "id": 109,
+      "deletionLog": {
+        "deleted": false,
+        "log": [
+          {
+            "deletedBy": "self",
+            "deleterId": 9,
+            "deletedContent": ">>>drakenwan[post:107]\n>>>adminmasterkarry[post:82]\nOkay what is happening??",
+            "reason": null,
+            "deletedOn": "2025-12-23T04:15:20.323Z"
+          }
+        ]
+      }
+    },
+    {
+      "threadId": 22,
+      "authorId": 9,
+      "authorUsername": "drakenwan",
+      "createdAt": "2025-12-23T03:35:45.582Z",
+      "content": ">>>drakenwan[post:109]",
+      "id": 110
+    },
+    {
+      "threadId": 21,
+      "authorId": 1,
+      "authorUsername": "adminmasterkarry",
+      "createdAt": "2025-12-23T03:42:45.471Z",
+      "content": "I don't think so",
+      "id": 111,
+      "deletionLog": {
+        "deleted": false,
+        "log": []
+      }
+    },
+    {
+      "threadId": 21,
+      "authorId": 10,
+      "authorUsername": "moderatorkarry1",
+      "createdAt": "2025-12-23T03:55:50.819Z",
+      "content": "<i>deleted</i>",
+      "id": 112,
+      "deletionLog": {
+        "deleted": true,
+        "log": [
+          {
+            "deletedBy": "self",
+            "deleterId": 10,
+            "deletedContent": "Omg I am a moderator now!",
+            "reason": null,
+            "deletedOn": "2025-12-23T05:16:15.124Z"
+          }
+        ]
+      }
     }
   ]
 }
